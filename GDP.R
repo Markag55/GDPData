@@ -1,3 +1,4 @@
+setwd(getwd())
 GDPs.csv <- read.csv("GDPData.csv", header=F)
 utilities <- as.numeric(GDPs.csv[16,3:12])
 str("Total GDP from utilities over the past 6 Quarters")
