@@ -1,4 +1,4 @@
-GDPs.csv <- read.csv("C:\\Users\\Mark\\Documents\\GDPData\\GDPData.csv", header=F)
+GDPs.csv <- read.csv("GDPData.csv", header=F)
 utilities <- as.numeric(GDPs.csv[16,3:12])
 str("Total GDP from utilities over the past 6 Quarters")
 sum(utilities) #find the sum of GDP for utilities over the past 6 Quarters
